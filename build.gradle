@@ -9,6 +9,10 @@ buildScan {
 
   server = "http://gradle.myteam"
 
+  tag "Demo"
+  link "Build Scan Docs", "https://docs.gradle.com/scans"
+  value "coolness", "amazing"
+
   publishAlways()
 }
 

@@ -5,8 +5,8 @@ plugins {
 
 buildScan {
 // Uncomment the lines below to agree to the Terms of Service.
-// licenseAgreementUrl = 'https://gradle.com/terms-of-service'
-// licenseAgree = 'yes'
+ licenseAgreementUrl = 'https://gradle.com/terms-of-service'
+ licenseAgree = 'yes'
     tag 'SAMPLE'
     link 'GitHub', 'https://github.com/gradle/gradle-build-scan-quickstart'
 }
